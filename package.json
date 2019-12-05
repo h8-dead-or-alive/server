@@ -1,0 +1,30 @@
+{
+  "name": "h8-dead-or-alive-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon bin/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8-dead-or-alive/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h8-dead-or-alive/server/issues"
+  },
+  "homepage": "https://github.com/h8-dead-or-alive/server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gcs-upload": "^1.1.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
